@@ -4,7 +4,7 @@ Solution to Euler Problem number 19.
 For humor, we use Conway's doomsday algorithm:
 https://www.timeanddate.com/date/doomsday-weekday.html
 
-This is opposed to the datetime module's strftime method: 
+This is opposed to the trivial datetime module's approach: 
 import datetime
 count = 0
 for y in range(1901, 2001):
